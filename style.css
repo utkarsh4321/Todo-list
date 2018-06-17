@@ -1,0 +1,139 @@
+:root{
+--back:rgba(17, 221, 221, 0.918);
+--mainback:#f4f4f4;
+--spacing:10px 14px;
+
+
+}
+*{
+box-sizing: border-box;
+
+
+}
+body{
+ background:var(--mainback);
+font-size:20px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+line-height: 1.3;
+
+
+}
+h1,h2,h3,h4{
+margin:0;
+padding:0;
+
+}
+ul{
+margin:auto;
+padding:0;
+
+
+
+}
+li{
+list-style-type:none;
+
+
+}
+a{
+  text-decoration: none;
+  color:#000;
+}
+.container{
+width:80%;
+margin:auto;
+background: #fff;
+padding:1rem;
+box-shadow:0px 1px 1px 0px rgba(0,0,0,.5);
+}
+.form{
+margin-top:10px;
+width:100%;
+
+
+
+}
+.form input{
+width:100%;
+border:none;
+outline: none;
+border-bottom:1px solid rgba(153, 151, 151, 0.788);
+padding-bottom: 5px;
+transition: all .3s;
+background:#fff;
+
+}
+::-webkit-input-placeholder{
+  
+  transition: all .3s;
+  padding:0px;
+  margin:0px;
+  color:#000;
+}
+input:focus{
+padding-bottom: 10px;
+
+
+}
+.form button{
+background:rgba(8, 134, 124, 0.938);
+color:#fff;
+padding:10px 14px;
+margin-top:2rem;
+border:none;
+border-radius: 1.4px;
+}
+.randi{
+width:100%;
+margin-top:1rem;
+
+}
+.randi ul{
+  margin-top:1rem;
+  
+}
+.randi li{
+border:.1px solid rgba(153, 149, 149, 0.548);
+padding:10px 14px;
+position: relative;
+}
+.randi li i{
+position: absolute;
+right:13px;
+color:rgb(233, 102, 14);
+
+
+}
+.randi button{
+margin-top:1rem;
+background:#111;
+color:#fff;
+padding:7px 14px;
+border:none;
+border-radius: 1px;
+
+}
+.dec{
+width:100%;
+padding:.7rem;
+background: rgba(250, 67, 67, 0.849);
+color:#fff;
+opacity: 1;
+
+transition:all .4s;
+display:block
+}
+
+.fill{
+padding:1rem 0px;
+
+
+
+}
+.filter h4{
+margin-top:20px;
+}
+
+
+
+
